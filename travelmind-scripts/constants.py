@@ -8,6 +8,10 @@ DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "output"
 STATIC_CONTENT_FILE_PREFIX = "STATIC_CONTENT"
 REVIEWS_CONTENT_FILE_PREFIX = "REVIEWS_CONTENT"
 
+VECTORS_DIR_NAME = "vectors"
+VECTORS_MANIFEST_FILE = "manifest.json"
+PINECONE_STATIC_CONTENT_NAMESPACE = "hotel-static-content"
+
 API_PATH_STATIC_CONTENT = "/api/v1/hotels/{hotel_id}/static-content"
 API_PATH_AGGREGATED_REVIEWS = "/api/v1/hotels/internal/{hotel_id}/aggregated-reviews/"
 
