@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "hotel-mcp": {
+      "url": "http://localhost:8000/<TRAVCLAN_API_KEY>/mcp/?user_id=<TRAVCLAN_USER_ID>&merchant_id=<TRAVCLAN_MERCHANT_ID>"
+    }
+  }
+}
